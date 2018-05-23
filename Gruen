@@ -4,7 +4,7 @@
 <body style='margin : 0px; overflow: hidden;'>
   <a-scene embedded arjs='trackingMethod: best;'>
     <a-assets>
-      <img id='earth' src='https://raw.githubusercontent.com/aframevr/sample-assets/master/assets/images/space/earth_atmos_4096.jpg' />
+      <img id='earth' src='https://julia10294.github.io/AR/img_1408376318915_li.jpg' />
     </a-assets>
 
     <a-anchor hit-testing-enabled='true'>
