@@ -1,0 +1,27 @@
+      <!doctype HTML>
+      <html>
+        <head>
+          <script src="https://aframe.io/releases/0.6.1/aframe.min.js"></script>
+          <script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.5.0/aframe/build/aframe-ar.js"> </script>
+          <title>
+            AR.js for hiro Marker
+          </title>
+        </head>
+        <body style='margin : 0px; overflow: hidden;'>
+          <a-scene>
+              <a-marker id="mymarker" preset="hiro">
+      <!-- Comment for a-plane:  -->
+      <a-plane position="0.00 0.50 0.00" material="color: #33bb63;opacity:0.5" rotation="0 0 0"  width="1.50" height="1.00" ></a-plane>
+         <!-- Comment for a-torus: Hydrogen 1 -->
+      <a-torus position="1.00 1.70 0.00" material="color: #4b235a;opacity:0.7" rotation="0 0 0"  radius="0.80" radius-tubular="0.27" ></a-torus>
+         <!-- Comment for a-sphere: Hydrogen 2 -->
+      <a-sphere position="-1.00 1.70 0.00" material="color: #ffffff;opacity:0.7" rotation="0 0 0"  radius="0.80" ></a-sphere>
+         <!-- Comment for a-text: Irgendwas -->
+      <a-text position="0.00 0.50 1.50" material="color: #3070be;opacity:0.5" rotation="0 0 0"  value="Irgendwas" color="#3070be" height="1.00" ></a-text>
+   
+              </a-marker>
+              <a-entity camera></a-entity>
+         </a-scene>
+        </body>
+      </html>
+    
